@@ -8,13 +8,6 @@ int maior_indice(int i, int n, int array[], int maiorInd)
     }
     else
     {
-        /* if (array[i] > array[maiorInd])
-        {
-            maiorInd = i;
-        }
-
-        return maior_indice(i + 1, n, array, maiorInd);*/
-
         return (array[i] > array[maiorInd])
                 ? maior_indice(i + 1, n, array, i)
                 : maior_indice(i + 1, n, array, maiorInd);
