@@ -39,7 +39,7 @@ void tocas (int array [] , int visitados [] , int n , int i , int cont , int atu
 }
 int main ()
 {
-	int n , i;
+    int n , i;
     scanf("%d", &n);
     int array [n] , visitados [n] ;
 
