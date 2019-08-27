@@ -55,5 +55,5 @@ int main ()
 
     tocas (array , visitados , n , 0 , 0 , 0 , 0);
 
-	return 0 ;
+    return 0 ;
 }
