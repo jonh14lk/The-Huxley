@@ -43,9 +43,9 @@ int main ()
         scanf("%d", &rato[l].direita); // le o no da esquerda
     }
     
-    int condition = 0 ; // variavel para armazenar a condiçao de que se deve printar sim ou nao no final
+    int condition = 0 ; // variavel para armazenar a condiçao de que se deve printar sim ou nao no final 
 
-    run (rato , b , q , &condition , i , 0); // chamada da funçao que percorre a arvore
+    run (rato , b , q , &condition , i , 0); // chamada da funçao que percorre a arvore , passando condition por ponteiro
 
     if (condition == 1) // se ele conseguiu comer exatamente a quantidade de queijos em algum momento
     {
