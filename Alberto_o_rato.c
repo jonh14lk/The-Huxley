@@ -11,7 +11,7 @@ void run (struct buracos rato [] , int b , int q , int *condition , int no_atual
     {
         if (quantia == q) // verifico se a quantidade de queijos atuais foi a que ele pediu na entrada
         {
-            *condition = 1 ;
+            *condition = 1 ; // mudo a minha condição para q ele printe sim 
         }
 
         return ; // retorno essa função(cheguei no final), e agora ele vai executar a proxima que tá na fila se tiver
@@ -21,7 +21,7 @@ void run (struct buracos rato [] , int b , int q , int *condition , int no_atual
 
     if (quantia == q) // verifico se a quantidade de queijos atuais foi a que ele pediu na entrada
     {
-        *condition = 1 ;
+        *condition = 1 ; // mudo a minha condição para q ele printe sim 
         return ;
     }
 
