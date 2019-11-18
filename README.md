@@ -1,1 +1,5 @@
-Algumas das questoẽs feitas por mim no thehuxley.com e códigos úteis 
+Some of the questions I solved on thehuxley.com and helpful codes
+
+My profile:
+
+https://www.thehuxley.com/profile/24427?page=1
