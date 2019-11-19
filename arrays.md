@@ -100,6 +100,10 @@ int main ()
 
 ```
 
+Por último, aqui está um exemplo de implementação para poder ordenar um array 
+
+Link: https://github.com/jonh14lk/The-Huxley/blob/master/ordenar_array.c
+
 Questões boas para treinar array no thehuxley, em ordem crescente de dificuldade:
 
 152  - Brincando com arrays : https://www.thehuxley.com/problem/152?locale=pt_BR
