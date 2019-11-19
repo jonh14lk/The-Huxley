@@ -103,7 +103,45 @@ int main ()
 Por último, aqui está um exemplo de implementação para poder ordenar um array de forma crescente, <br />
 sendo o menor elemento na posição [0] e o maior na posição [n - 1]
 
-Link: https://github.com/jonh14lk/The-Huxley/blob/master/ordenar_array.c <br />
+```c
+void swap (int *a , int *b)
+{
+    if (*a < *b)
+    {
+        int aux ;
+        aux = *a ;
+        *a = *b ;
+        *b = aux ;
+        return ;
+    }
+    else
+    {
+        return ;
+    }
+}
+void ordenar (int array [] , int n , int cont)
+{
+    if (n == 1)
+    {
+        return ;
+    }
+    else 
+    {
+        if (cont == n )
+        {
+            ordenar(array , n - 1 , 1 );
+        }
+        else 
+        {
+            swap (&array[cont] , &array[cont - 1]);
+            ordenar (array , n , cont + 1 );
+        }
+    }
+}
+
+```
+
+Link com implementação completa: https://github.com/jonh14lk/The-Huxley/blob/master/ordenar_array.c <br />
 <br />
 <br />
 
