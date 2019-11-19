@@ -104,7 +104,7 @@ Por último, aqui está um exemplo de implementação para poder ordenar um arra
 sendo o menor elemento na posição [0] e o maior na posição [n - 1].
 <br />
 <br />
-Existem infinitas outras maneiras de ordenar, esta é apenas uma delas
+Existem infinitas maneiras de ordenar, esta é apenas uma delas
 <br />
 ```c
 void swap (int *a , int *b)
