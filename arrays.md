@@ -107,6 +107,8 @@ Link: https://github.com/jonh14lk/The-Huxley/blob/master/ordenar_array.c <br />
 <br />
 
 Questões boas para treinar array no thehuxley, em ordem crescente de dificuldade:
+<br />
+<br />
 
 152  - Brincando com arrays : https://www.thehuxley.com/problem/152?locale=pt_BR
 
@@ -125,6 +127,7 @@ Questões boas para treinar array no thehuxley, em ordem crescente de dificuldad
 
 
 **Desafio - 2392 - A grande estreia : https://www.thehuxley.com/problem/2392?locale=pt_BR** <br />
+<br />
 <br />
 
 
