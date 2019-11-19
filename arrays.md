@@ -110,4 +110,6 @@ Questões boas para treinar array no thehuxley, em ordem crescente de dificuldad
 
 Desafio - 2392 - A grande estreia : https://www.thehuxley.com/problem/2392?locale=pt_BR
 
+Bons estudos :)
+
 
