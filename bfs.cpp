@@ -20,16 +20,16 @@ class Graph
     		adj[u].push_back(v);
 
     		if(!isDir)
-            {
+            	{
                 adj[v].push_back(u);
-            }
+            	}
     	}
     	void BFS(int s)
     	{
     		visited = new bool[V];
 
     		for(int i = 0 ; i < V ; i++)
-            {
+            	{
     			visited[i] = false;
     		}
     		
@@ -38,7 +38,7 @@ class Graph
     		queue.push_back(s);
     		
     		while(!queue.empty())
-            {
+            	{
     			int n = queue.front();
                 printf("%d\n", n);
                 queue.pop_front();
@@ -46,9 +46,9 @@ class Graph
     			vector<int>::iterator i;
     
     			for(i = adj[n].begin() ; i!= adj[n].end() ; i++)
-                {
+                	{
     				if(visited[*i] == false)
-                    {
+                    		{
     					visited[*i] = true;
     					queue.push_back(*i);
     				}
