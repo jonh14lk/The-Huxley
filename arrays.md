@@ -49,14 +49,14 @@ Já para que possamos ler todas as posições do array em uma entrada, podemos f
 
 void ler_array (int a[], int i, int n)
 {
-  if (i < n)
+  if (i == n)
   {
-     scanf("%d", &a[i]);  // lendo o array na posição i , seguido de uma quebra de linha
-     ler_array(a, i + 1 , n);
+     return ;
   }
   else
   {
-     return ;
+     scanf("%d", &a[i]);  // lendo o array na posição i , seguido de uma quebra de linha
+     ler_array(a, i + 1 , n);
   }
 }
 int main ()
@@ -79,14 +79,14 @@ Já para que possamos imprimir todas as posições do array em uma entrada, tamb
 
 void imp_array (int a[], int i, int n)
 {
-  if (i < n)
+  if (i == n)
   {
-     printf("%d\n", a[i]);  // imprimindo o array na posição i , seguido de uma quebra de linha
-     imp_array(a, i + 1 , n);
+     return ;
   }
   else
   {
-     return ;
+     printf("%d\n", a[i]);  // imprimindo o array na posição i , seguido de uma quebra de linha
+     imp_array(a, i + 1 , n);
   }
 }
 int main ()
