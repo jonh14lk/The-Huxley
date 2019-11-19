@@ -21,7 +21,7 @@ class Graph
 
     		if(!isDir)
             	{
-                adj[v].push_back(u);
+               	    adj[v].push_back(u);
             	}
     	}
     	void BFS(int s)
@@ -30,7 +30,7 @@ class Graph
 
     		for(int i = 0 ; i < V ; i++)
             	{
-    			visited[i] = false;
+    		    visited[i] = false;
     		}
     		
     		list<int> queue;
@@ -39,9 +39,9 @@ class Graph
     		
     		while(!queue.empty())
             	{
-    			int n = queue.front();
-                printf("%d\n", n);
-                queue.pop_front();
+    	           int n = queue.front();
+                   printf("%d\n", n);
+                   queue.pop_front();
     			
     			vector<int>::iterator i;
     
@@ -49,8 +49,8 @@ class Graph
                 	{
     				if(visited[*i] == false)
                     		{
-    					visited[*i] = true;
-    					queue.push_back(*i);
+    				    visited[*i] = true;
+    		                    queue.push_back(*i);
     				}
     			}
     		}
@@ -67,7 +67,7 @@ int main()
 
 	while(scanf("%d%d", &u , &v) != EOF)
     	{
-		g.AddEdge(u,v) ;
+	    g.AddEdge(u,v) ;
 	}
 	
 	g.BFS(s) ;
