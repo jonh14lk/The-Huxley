@@ -99,3 +99,15 @@ int main ()
 }
 
 ```
+
+Questões boas para treinar array no thehuxley, em ordem crescente de dificuldade:
+
+152  - Brincando com arrays : https://www.thehuxley.com/problem/152?locale=pt_BR
+2086 - 1000 Números do Tio willy : https://www.thehuxley.com/problem/2086?locale=pt_BR
+2412 - Ambrósio Romântico : https://www.thehuxley.com/problem/2412?locale=pt_BR
+2197 - Ambrósio Desastrado : https://www.thehuxley.com/problem/152?locale=pt_BR
+362 - Copa do Mundo : https://www.thehuxley.com/problem/362?locale=pt_BR
+
+Desafio - 2392 - A grande estreia : https://www.thehuxley.com/problem/2392?locale=pt_BR
+
+
