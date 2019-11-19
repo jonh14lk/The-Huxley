@@ -22,7 +22,7 @@ void swap (int *a , int *b)
         return ;
     }
 }
-void bubblesort (int array [] , int n , int cont)
+void ordenar (int array [] , int n , int cont)
 {
     if (n == 1)
     {
@@ -32,12 +32,12 @@ void bubblesort (int array [] , int n , int cont)
     {
         if (cont == n )
         {
-            bubblesort (array , n - 1 , 1 );
+            ordenar(array , n - 1 , 1 );
         }
         else 
         {
             swap (&array[cont] , &array[cont - 1]);
-            bubblesort (array , n , cont + 1 );
+            ordenar (array , n , cont + 1 );
         }
     }
 }
@@ -55,7 +55,7 @@ int main()
     scanf("%d", &n);
     int array [n];
     ler_array(0, n , array);
-    bubblesort(array, n , 1);
+    ordenar(array, n , 1);
     imprimir_array(0, n, array);
 	return 0;
 }
