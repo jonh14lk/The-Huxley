@@ -66,7 +66,7 @@ int main()
 	int u , v ; 
 
 	while(scanf("%d%d", &u , &v) != EOF)
-    {
+    	{
 		g.AddEdge(u,v) ;
 	}
 	
