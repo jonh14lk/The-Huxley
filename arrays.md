@@ -161,7 +161,7 @@ Link com implementação completa: https://github.com/jonh14lk/The-Huxley/blob/m
 2412 - Ambrósio Romântico : https://www.thehuxley.com/problem/2412?locale=pt_BR
 
 
-2197 - Ambrósio Desastrado : https://www.thehuxley.com/problem/152?locale=pt_BR
+2197 - Ambrósio Desastrado : https://www.thehuxley.com/problem/2197?locale=pt_BR
 
 
 362 - Copa do Mundo : https://www.thehuxley.com/problem/362?locale=pt_BR
