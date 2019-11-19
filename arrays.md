@@ -101,7 +101,8 @@ int main ()
 ```
 
 Por último, aqui está um exemplo de implementação para poder ordenar um array de forma crescente, <br />
-sendo o menor elemento na posição [0] e o maior na posição [n - 1]
+sendo o menor elemento na posição [0] e o maior na posição [n - 1].
+<br />
 <br />
 Existem infinitas outras maneiras de ordenar, esta é apenas uma delas
 <br />
