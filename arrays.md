@@ -100,7 +100,8 @@ int main ()
 
 ```
 
-Por último, aqui está um exemplo de implementação para poder ordenar um array 
+Por último, aqui está um exemplo de implementação para poder ordenar um array de forma crescente, <br />
+sendo o menor elemento na posição [0] e o maior na posição [n - 1]
 
 Link: https://github.com/jonh14lk/The-Huxley/blob/master/ordenar_array.c <br />
 <br />
