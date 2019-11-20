@@ -8,7 +8,6 @@ class Graph
     	vector<int> *adj;
     	bool *visited;
     public:
-    	bool isDir;
     	Graph(int v)
         {
     		V = v;
