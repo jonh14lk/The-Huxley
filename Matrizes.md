@@ -63,6 +63,14 @@ void ler_matriz (int n , int m , int i , int j , int matriz[][m])
 
 Também podemos fazer uma função recursiva para imprimir uma matriz.
 
+```c
+// Função recursiva para imprimir uma matriz
+// n - o numero de linhas
+// m - o numero de colunas
+// i - um contador para as linhas 
+// j - um contador para as colunas 
+// Sendo : int matriz[][n] , uma matriz de inteiros (PRECISO SEMPRE PASSAR O NÚMERO DE COLUNAS NOS PARÂMETROS ANTES DE DECLARAR A MATRIZ)
+
 void imp_matriz (int n , int m , int i , int j , int matriz[][m])
 {
     if (i == n) // se eu li todas as linhas, missão cumprida
