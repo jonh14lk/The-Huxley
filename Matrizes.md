@@ -20,10 +20,10 @@ Assim como nos arrays, as matrizes também possui suas linhas e colunas numerada
 Para acessar cada uma das posições da matriz, podemos fazer assim:
 
 ```c
-int m[10] // declarando a minha matriz
+int m[10][10] // declarando a minha matriz 10 por 10
 
-m0][1] = 1 ; // a minha matriz na posição 0,1 recebe 1 
-scanf("%d", &m4][2]); // lendo a matriz na posição 4,2
+m[0][1] = 1 ; // a minha matriz na posição 0,1 recebe 1 
+scanf("%d", &m[4][2]); // lendo a matriz na posição 4,2
 printf("%d\n", m[1][5]); // printando o valor da matriz na posição 1,5
 ```
 
