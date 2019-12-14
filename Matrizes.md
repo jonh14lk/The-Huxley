@@ -31,3 +31,32 @@ Exemplo de uma matriz 3 por 5:
 ![GitHub Logo](https://cdn.discordapp.com/attachments/630216934192840723/655459226382106635/cpp_Multidimensional_Array.png)
 
 fonte da imagem: https://beginnersbook.com/2017/08/cpp-multidimensional-arrays/
+
+
+Já para que possamos ler todas as posições da matriz em uma entrada, podemos fazer uma função recursiva para isto.
+
+```c
+// Função recursiva para ler uma matriz
+// n - o numero de linhas
+// m - o numero de colunas
+// i - um contador para as linhas 
+// j - um contador para as colunas 
+// Sendo : int matriz[][n] , uma matriz de inteiros (PRECISO SEMPRE PASSAR O NÚMERO DE COLUNAS NOS PARÂMETROS ANTES DE DECLARAR A MATRIZ)
+
+void ler_matriz (int n , int m , int i , int j , int matriz[][m])
+{
+    if (i == n) // se eu li todas as linhas, missão cumprida
+    {
+        return ;
+    }
+    else if (j < m) // lendo a linha atual
+    {
+        scanf("%d", &matriz [i][j]);
+        ler_matriz(n , m , i , j + 1 , matriz);
+    }
+    else if (j == m) // se eu terminei de ler a minha linha atual, pulo pra próxima linha 
+    {
+        ler_matriz(n , m , i + 1 , 0 , matriz);
+    }
+}
+```
