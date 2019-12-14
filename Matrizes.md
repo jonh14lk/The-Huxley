@@ -12,7 +12,7 @@ Exemplos:
 
 ```c
 int matriz[10][10] ; // crio uma matriz que armazena inteiros que possui 10 linhas e 10 colunas
-double matriz [200][10] ; // crio a matriz b que armazena valores de ponto flutuante (double) e que possui 200 linhas e 10 colunas 
+double matriz2 [200][10] ; // crio a matriz2 que armazena valores de ponto flutuante (double) e que possui 200 linhas e 10 colunas 
 ```
 
 Assim como nos arrays, as matrizes também possui suas linhas e colunas numeradas de 0 até n - 1.
