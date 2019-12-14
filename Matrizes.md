@@ -26,6 +26,7 @@ m[0][1] = 1 ; // a minha matriz na posição 0,1 recebe 1
 scanf("%d", &m[4][2]); // lendo a matriz na posição 4,2
 printf("%d\n", m[1][5]); // printando o valor da matriz na posição 1,5
 ```
+Exemplo de uma matriz 3 por 5
 
 ![GitHub Logo](https://cdn.discordapp.com/attachments/630216934192840723/655459226382106635/cpp_Multidimensional_Array.png)
 
