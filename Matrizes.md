@@ -90,3 +90,5 @@ void imp_matriz (int n , int m , int i , int j , int matriz[][m])
     }
 }
 ```
+
+Bons estudos :)
