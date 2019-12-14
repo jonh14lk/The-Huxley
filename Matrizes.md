@@ -73,18 +73,18 @@ Também podemos fazer uma função recursiva para imprimir uma matriz.
 
 void imp_matriz (int n , int m , int i , int j , int matriz[][m])
 {
-    if (i == n) // se eu li todas as linhas, missão cumprida
+    if (i == n) // se eu imprimi todas as linhas, missão cumprida
     {
         return ;
     }
-    else if (j < m) // lendo a linha atual
+    else if (j < m) // imprimindo a linha atual
     {
         if (j == 0) printf("%d", matriz [i][j]);
         else if (j != m - 1) printf(" %d", matriz [i][j]);
         else printf(" %d\n", matriz [i][j]);
         imp_matriz(n , m , i , j + 1 , matriz);
     }
-    else if (j == m) // se eu terminei de ler a minha linha atual, pulo pra próxima linha 
+    else if (j == m) // se eu terminei de imprimir a minha linha atual, pulo pra próxima linha 
     {
         imp_matriz(n , m , i + 1 , 0 , matriz);
     }
