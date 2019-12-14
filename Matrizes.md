@@ -28,3 +28,4 @@ printf("%d\n", a[1][5); // printando o valor da matriz na posição 1,5
 ```
 
 ![GitHub Logo](https://cdn.discordapp.com/attachments/630216934192840723/655459226382106635/cpp_Multidimensional_Array.png)
+fonte: https://beginnersbook.com/2017/08/cpp-multidimensional-arrays/
