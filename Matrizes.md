@@ -1,4 +1,4 @@
-# Matrizes na linguagem C
+#Matrizes na linguagem C
 
 Definição: Matriz é a uma estrutura de dados com duas ou mais dimensões, cujo os itens de uma matriz tem que ser todos do mesmo tipo de dado.
 
